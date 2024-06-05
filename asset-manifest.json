@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/cverab.github.io/static/css/main.97ae7be4.css",
-    "main.js": "/cverab.github.io/static/js/main.9c8753aa.js",
-    "static/js/453.e7e55b59.chunk.js": "/cverab.github.io/static/js/453.e7e55b59.chunk.js",
-    "static/media/desktop.jpg": "/cverab.github.io/static/media/desktop.319ef3cd621e9d52d867.jpg",
-    "static/media/contacto.jpg": "/cverab.github.io/static/media/contacto.10c0d10e4584efbd82b9.jpg",
-    "static/media/mobile.jpg": "/cverab.github.io/static/media/mobile.826ed3a304f942fdf1ae.jpg",
-    "index.html": "/cverab.github.io/index.html",
-    "main.97ae7be4.css.map": "/cverab.github.io/static/css/main.97ae7be4.css.map",
-    "main.9c8753aa.js.map": "/cverab.github.io/static/js/main.9c8753aa.js.map",
-    "453.e7e55b59.chunk.js.map": "/cverab.github.io/static/js/453.e7e55b59.chunk.js.map"
+    "main.css": "/home/static/css/main.97ae7be4.css",
+    "main.js": "/home/static/js/main.f190a6d6.js",
+    "static/js/453.4b8d8fd0.chunk.js": "/home/static/js/453.4b8d8fd0.chunk.js",
+    "static/media/desktop.jpg": "/home/static/media/desktop.319ef3cd621e9d52d867.jpg",
+    "static/media/contacto.jpg": "/home/static/media/contacto.10c0d10e4584efbd82b9.jpg",
+    "static/media/mobile.jpg": "/home/static/media/mobile.826ed3a304f942fdf1ae.jpg",
+    "index.html": "/home/index.html",
+    "main.97ae7be4.css.map": "/home/static/css/main.97ae7be4.css.map",
+    "main.f190a6d6.js.map": "/home/static/js/main.f190a6d6.js.map",
+    "453.4b8d8fd0.chunk.js.map": "/home/static/js/453.4b8d8fd0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.97ae7be4.css",
-    "static/js/main.9c8753aa.js"
+    "static/js/main.f190a6d6.js"
   ]
 }
