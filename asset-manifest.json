@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/home/static/css/main.97ae7be4.css",
-    "main.js": "/home/static/js/main.f879fb13.js",
-    "static/js/453.4b8d8fd0.chunk.js": "/home/static/js/453.4b8d8fd0.chunk.js",
-    "static/media/desktop.jpg": "/home/static/media/desktop.319ef3cd621e9d52d867.jpg",
-    "static/media/contacto.jpg": "/home/static/media/contacto.10c0d10e4584efbd82b9.jpg",
-    "static/media/mobile.jpg": "/home/static/media/mobile.826ed3a304f942fdf1ae.jpg",
-    "index.html": "/home/index.html",
-    "main.97ae7be4.css.map": "/home/static/css/main.97ae7be4.css.map",
-    "main.f879fb13.js.map": "/home/static/js/main.f879fb13.js.map",
-    "453.4b8d8fd0.chunk.js.map": "/home/static/js/453.4b8d8fd0.chunk.js.map"
+    "main.css": "/cverab/static/css/main.97ae7be4.css",
+    "main.js": "/cverab/static/js/main.43f5ba17.js",
+    "static/js/453.ada92503.chunk.js": "/cverab/static/js/453.ada92503.chunk.js",
+    "static/media/desktop.jpg": "/cverab/static/media/desktop.319ef3cd621e9d52d867.jpg",
+    "static/media/contacto.jpg": "/cverab/static/media/contacto.10c0d10e4584efbd82b9.jpg",
+    "static/media/mobile.jpg": "/cverab/static/media/mobile.826ed3a304f942fdf1ae.jpg",
+    "index.html": "/cverab/index.html",
+    "main.97ae7be4.css.map": "/cverab/static/css/main.97ae7be4.css.map",
+    "main.43f5ba17.js.map": "/cverab/static/js/main.43f5ba17.js.map",
+    "453.ada92503.chunk.js.map": "/cverab/static/js/453.ada92503.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.97ae7be4.css",
-    "static/js/main.f879fb13.js"
+    "static/js/main.43f5ba17.js"
   ]
 }
