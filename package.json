@@ -1,7 +1,7 @@
 {
-  "name": "cverab.github.io",
-  "version": "0.5.0",
-  "homepage": "https://cverab.github.io/cverab.github.io",
+  "name": "cverab",
+  "version": "0.6.0",
+  "homepage": "https://cverab.github.io/cverab",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.5.1",
