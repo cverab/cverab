@@ -2,7 +2,7 @@
 
 ¡Hola! Soy un apasionado autodidacta de la programación web con experiencia en HTML, CSS, JavaScript, React y Wordpress. Resido en la ciudad de Ibagué, Colombia. A lo largo de los años, he participado en la creación de algunos sitios web y también he trabajado en proyectos personales para seguir mejorando mis habilidades.
 
-Desde los catorce años, he disfrutado creando pequeñas páginas web estáticas en HTML. Mi primer computador tenía Windows 95. Más tarde, descubrí que podía dar estilo a mis páginas web utilizando CSS y automatizar acciones con el uso de Javascript. Estas habilidades me han permitido desarrollar numerosos proyectos personales. Aunque no he tenido estudios formales en esta área, el aprendizaje autodidacta ha sido fundamental para mi crecimiento.
+Desde que tenía catorce años, me ha apasionado la creación de páginas web estáticas utilizando HTML. Mi travesía en el mundo de la informática comenzó con mi primer ordenador, que funcionaba con Windows 95. Con el tiempo, descubrí el poder del CSS para dar estilo a mis páginas web y el uso de Javascript para automatizar diversas acciones. Estas habilidades han sido la base para el desarrollo de numerosos proyectos personales que he emprendido. A pesar de no contar con una formación formal en este campo, el aprendizaje autodidacta ha jugado un papel crucial en mi crecimiento y desarrollo profesional.
 
 ## Mis habilidades clave:
 

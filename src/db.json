@@ -1,39 +1,39 @@
 {
   "intereses": [
     {
-      "fondo": "http://localhost:3000/cverab.github.io/img/musica.jpg",
+      "fondo": "https://raw.githubusercontent.com/cverab/home/gh-pages/img/musica.jpg",
       "titulo": "Musica",
       "caption": "Foto de CARTIST .: https://www.pexels.com/es-es/foto/vintage-efecto-desenfocado-musica-estilo-4296351/"
     },
     {
-      "fondo": "http://localhost:3000/cverab.github.io/img/lectura.jpg",
+      "fondo": "https://raw.githubusercontent.com/cverab/home/gh-pages/img/lectura.jpg",
       "titulo": "Lectura",
       "caption": "Foto de Oziel Gómez: https://www.pexels.com/es-es/foto/anteojos-en-libro-abierto-junto-a-una-taza-de-cafe-en-la-mesa-2846814/"
     },
     {
-      "fondo": "http://localhost:3000/cverab.github.io/img/cine.jpg",
+      "fondo": "https://raw.githubusercontent.com/cverab/home/gh-pages/img/cine.jpg",
       "titulo": "Cine",
       "caption": "Foto de Tima Miroshnichenko: https://www.pexels.com/es-es/foto/silla-asiento-adentro-auditorio-7991182/"
     },
     {
-      "fondo": "http://localhost:3000/cverab.github.io/img/videojuego.jpg",
+      "fondo": "https://raw.githubusercontent.com/cverab/home/gh-pages/img/videojuego.jpg",
       "titulo": "Videojuegos",
       "caption": "Foto de Eren Li: https://www.pexels.com/es-es/foto/hombre-creativo-casa-sin-rostro-7241446/"
     },
     {
-      "fondo": "http://localhost:3000/cverab.github.io/img/electronica.jpg",
+      "fondo": "https://raw.githubusercontent.com/cverab/home/gh-pages/img/electronica.jpg",
       "titulo": "Electrónica",
       "caption": "Foto de Pixabay: https://www.pexels.com/es-es/foto/transistor-negro-al-lado-del-condensador-163100/"
     },
     {
-      "fondo": "http://localhost:3000/cverab.github.io/img/caminata.jpg",
+      "fondo": "https://raw.githubusercontent.com/cverab/home/gh-pages/img/caminata.jpg",
       "titulo": "Caminatas",
       "caption": "Foto de Enric Cruz López: https://www.pexels.com/es-es/foto/elegante-empresario-anonimo-que-cruza-la-carretera-en-el-centro-de-la-ciudad-6039211/"
     }
   ],
   "proyectos": [
     {
-      "fondo": "http://localhost:3000/cverab.github.io/img/encriptador-alura.png",
+      "fondo": "https://raw.githubusercontent.com/cverab/home/gh-pages/img/encriptador-alura.png",
       "titulo": "Encriptador de Texto",
       "pageurl": "https://github.com/cverab/encriptador",
       "demoUrl": "https://cverab.github.io/encriptador/",
@@ -44,7 +44,7 @@
       "phyton": false
     },
     {
-      "fondo": "http://localhost:3000/cverab.github.io/img/portfolio.png",
+      "fondo": "https://raw.githubusercontent.com/cverab/home/gh-pages/img/portfolio.png",
       "titulo": "Portafolio",
       "pageurl": "https://github.com/cverab/portafolio",
       "demoUrl": "https://cverab.github.io/portafolio/",
@@ -55,7 +55,7 @@
       "phyton": false
     },
     {
-      "fondo": "http://localhost:3000/cverab.github.io/img/alurageek.png",
+      "fondo": "https://raw.githubusercontent.com/cverab/home/gh-pages/img/alurageek.png",
       "titulo": "AluraGeek",
       "pageurl": "https://github.com/cverab/Alurageek",
       "demoUrl": "https://alurageek-delta-seven.vercel.app/",
@@ -66,7 +66,7 @@
       "phyton": false
     },
     {
-      "fondo": "http://localhost:3000/cverab.github.io/img/aluraflix.png",
+      "fondo": "https://raw.githubusercontent.com/cverab/home/gh-pages/img/aluraflix.png",
       "titulo": "AluraFlix",
       "pageurl": "https://github.com/cverab/AluraFlix",
       "demoUrl": "https://alura-flix-lake-one.vercel.app/",
@@ -82,37 +82,31 @@
       "fondo": "https://cverab.github.io/portafolio/img/FreeCodeCampLogo.png",
       "titulo": "Responsive Web Desing",
       "pageurl": "placeholder",
-      "demoUrl": "demo url",
-      "javascript": true,
       "html": true,
       "css": true,
       "react": false,
-      "github": true,
-      "demo": true
+      "github": false,
+      "demo": false
     },
     {
       "fondo": "https://cverab.github.io/portafolio/img/OracleNextEducationLogo.png",
       "titulo": "Principiante en programación",
-      "pageurl": "placeholder",
-      "demoUrl": "demo url",
       "javascript": true,
       "html": true,
       "css": true,
       "react": false,
-      "github": true,
-      "demo": true
+      "github": false,
+      "demo": false
     },
     {
       "fondo": "https://cverab.github.io/portafolio/img/OracleNextEducationLogo.png",
       "titulo": "Front End",
-      "pageurl": "placeholder",
-      "demoUrl": "demo url",
       "javascript": true,
       "html": true,
       "css": true,
       "react": false,
-      "github": true,
-      "demo": true
+      "github": false,
+      "demo": false
     }
   ]
 }
