@@ -120,7 +120,7 @@ const Paragraph = styled.div`
         a:active {
         }
     `;
-export function Item({ fondo, titulo, pageUrl, demoUrl, javascript, html, css, react }) {
+export function Item({ fondo, titulo, pageUrl, demoUrl, javascript, html, css, react, institucion, url }) {
     const iconos = [
         { name: html, icon: faHtml5, alt: "HTML5" },
         { name: css, icon: faCss3Alt, alt: "CSS3" },
@@ -150,6 +150,7 @@ export function Item({ fondo, titulo, pageUrl, demoUrl, javascript, html, css, r
                 <Icons>
                     {pageUrl ? <a href={pageUrl} target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub} alt="Página de proyecto" size="2x" style={{ marginLeft: '10px' }} /></a> : null}
                     {pageUrl ? <a href={demoUrl} target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faDesktop} alt="Página de proyecto" size="2x" style={{ marginLeft: '10px' }} /></a> : null}
+                    {url && institucion ? <a href={url} target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faDesktop} alt={institucion} size="2x" style={{ marginLeft: '10px' }} /></a> : null}
                 </Icons>
             </Paragraph>
         </ItemContainer>

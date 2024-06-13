@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  background-color: #ffffff;
+  background-color: #FFFFFF;
   width: 100%;
   margin: 0;
   padding: 0;
@@ -24,12 +24,14 @@ h2 {
 }
 
 h3 {
+  font-family: "Hammersmith One", sans-serif;
   font-size: 1.25rem;
   font-weight: normal;
   font-style: normal;
 }
 
 p {
+  font-family: "Open Sans", sans-serif;
   padding: 0 5rem;
   font-size: 0.875rem;
   font-weight: normal;
@@ -37,4 +39,64 @@ p {
 
 li {
   font-size: 0.875rem;
+}
+
+.retro {
+  position: fixed;
+  right: 0;
+}
+
+.old {
+  font-family: 'Times New Roman', Times, serif;
+  background-image: url('../public/img/back.jpg');
+}
+
+.container {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.table-old {
+  border-style: double;
+  width: 640px;
+  background-color: #FFFFE0;
+}
+
+.h1-old {
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.h2-old {
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.h3-old {
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.p-old {
+  padding: 0 1rem;
+  font-size: 1rem;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.ul-old {
+  padding: 0 1rem;
+}
+
+.li-old {
+  margin: 0 1rem;
+  font-size: 1rem;
+  list-style: square;
+}
+
+@media screen and (max-width: 600px) {
+  .retro {
+    display: none;
+  }
 }

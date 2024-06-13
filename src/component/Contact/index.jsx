@@ -10,13 +10,14 @@ const Container = styled.div`
     flex-direction: row;
     width: 100%;
     align-items: center;
+    background-color: white;
 `
 const Contenido = styled.div`
     display: flex;
     flex-direction: column;
     width: 60%;
     align-items: center;
-    @media (max-width: 425px) {
+        @media (max-width: 425px) {
         width: 100%;
     }
 `
@@ -76,21 +77,49 @@ const Item = styled.li`
         a:active {
         }
 `
-function Contact() {
+    ;
+function Contact({ oldSchool }) {
+    const contenido = "¡Siempre estoy emocionado por aprender más y enfrentar nuevos desafíos! Si tienes alguna pregunta o quieres colaborar en un proyecto, ¡no dudes en contactarme!";
+
+    const enlaces = [
+        { href: "https://github.com/cverab", texto: "Github", icono: faGithub },
+        { href: "https://co.linkedin.com/in/cverab", texto: "Linkedin", icono: faLinkedin },
+        { href: "mailto:cverab@outlook.com", texto: "Correo Electrónico", icono: faEnvelope }
+    ];
     return (
-        <Container>
-            <Contenido>
-                <Titulo>
-                    Contacto
-                </Titulo>
-                <Parrafo>¡Siempre estoy emocionado por aprender más y enfrentar nuevos desafíos! Si tienes alguna pregunta o quieres colaborar en un proyecto, ¡no dudes en contactarme!</Parrafo>
-                <List>
-                    <Item><FontAwesomeIcon icon={faGithub} style={{ color: 'black', paddingRight: '10px' }} /><a href="https://github.com/cverab">Github</a></Item>
-                    <Item><FontAwesomeIcon icon={faLinkedin} style={{ color: 'black', paddingRight: '10px' }} /><a href="https://co.linkedin.com/in/cverab">Linkedin</a></Item>
-                    <Item><FontAwesomeIcon icon={faEnvelope} style={{ color: 'black', paddingRight: '10px' }} /><a href="mailto:cverab@outlook.com">Correo Electrónico</a></Item>
-                </List>
-            </Contenido><Fondo alt='Photo by Ann poan from Pexels: https://www.pexels.com/photo/workplace-with-laptop-and-opened-diary-5797903/'></Fondo>
-        </Container>
+        <>
+            {oldSchool ?
+                <div className="container">
+                    <table className="table-old">
+                        <tr>
+                            <td>
+                                <h1 className="h1-old">Contacto</h1>
+                                <p className="p-old">{contenido}</p>
+                                <ul className="ul-old">
+                                    {enlaces.map((enlace, index) =>
+                                        <li className="li-old" key={index}><a href={enlace.href}>{enlace.texto}</a></li>
+                                    )}
+                                </ul>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                :
+                <Container>
+                    <Contenido>
+                        <Titulo>
+                            Contacto
+                        </Titulo>
+                        <Parrafo>{contenido}</Parrafo>
+                        <List>
+                            {enlaces.map((enlace, index) =>
+                                <Item key={index}><FontAwesomeIcon icon={enlace.icono} style={{ color: 'black', paddingRight: '10px' }} /><a href={enlace.href}>{enlace.texto}</a></Item>
+                            )}
+                        </List>
+                    </Contenido><Fondo alt='Photo by Ann poan from Pexels: https://www.pexels.com/photo/workplace-with-laptop-and-opened-diary-5797903/'></Fondo>
+                </Container>
+            }
+        </>
     )
 }
 

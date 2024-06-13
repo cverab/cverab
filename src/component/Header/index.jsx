@@ -46,27 +46,32 @@ const Subtitulo = styled.h3`
     margin: 0.2rem 0 3rem 0;
     @media (max-width: 640px) {
       margin: 0.2rem 0 0.3rem 0;
-    }
-  `;
-
-const Header = ({ autor, oficio }) => {
+    }`
+  ;
+const Header = ({ autor, oficio, oldSchool }) => {
   return (
-    <Container>
-      <Fondo alt="Photo by Vlad Bagacian from Pexels: https://www.pexels.com/photo/black-laptop-on-brown-table-1028443/">
-        <Textos>
-          <FontAwesomeIcon
-            icon={faLaptopCode}
-            size="4x"
-            style={{
-              color: 'white',
-              textShadow: '2px 2px 2px rgba(0, 0, 0, 0.5)'
-            }}
-          />
-          <Titulo>{autor}</Titulo>
-          <Subtitulo>{oficio}</Subtitulo>
-        </Textos>
-      </Fondo>
-    </Container>
+    <>
+      {oldSchool ? <div className="container">
+        <table className="table-old"><tr><td><h1 className="h1-old">{autor} - {oficio}</h1></td></tr></table>
+      </div> :
+        <Container>
+          <Fondo alt="Photo by Vlad Bagacian from Pexels: https://www.pexels.com/photo/black-laptop-on-brown-table-1028443/">
+            <Textos>
+              <FontAwesomeIcon
+                icon={faLaptopCode}
+                size="4x"
+                style={{
+                  color: 'white',
+                  textShadow: '2px 2px 2px rgba(0, 0, 0, 0.5)'
+                }}
+              />
+              <Titulo>{autor}</Titulo>
+              <Subtitulo>{oficio}</Subtitulo>
+            </Textos>
+          </Fondo>
+        </Container>
+      }
+    </>
   )
 };
 

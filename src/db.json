@@ -81,7 +81,8 @@
     {
       "fondo": "https://cverab.github.io/portafolio/img/FreeCodeCampLogo.png",
       "titulo": "Responsive Web Desing",
-      "pageurl": "placeholder",
+      "institucion": "freeCodeCamp",
+      "url": "https://www.freecodecamp.org/",
       "html": true,
       "css": true,
       "react": false,
@@ -91,6 +92,8 @@
     {
       "fondo": "https://cverab.github.io/portafolio/img/OracleNextEducationLogo.png",
       "titulo": "Principiante en programación",
+      "institucion": "Alura Latam",
+      "url": "https://www.aluracursos.com/",
       "javascript": true,
       "html": true,
       "css": true,
@@ -101,10 +104,12 @@
     {
       "fondo": "https://cverab.github.io/portafolio/img/OracleNextEducationLogo.png",
       "titulo": "Front End",
+      "institucion": "Alura Latam",
+      "url": "https://www.aluracursos.com/",
       "javascript": true,
       "html": true,
       "css": true,
-      "react": false,
+      "react": true,
       "github": false,
       "demo": false
     }

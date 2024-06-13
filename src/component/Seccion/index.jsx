@@ -17,14 +17,31 @@ const Titulo = styled.h2`
         @media (max-width: 425px) {
             font-size: 1.5rem;
         }
-    `;
-function Seccion({ title, jsonUrl, back, color }) {
-
+    `
+const GrupoOld = styled(Grupo)`
+    width: 640px;
+`
+    ;
+function Seccion({ title, jsonUrl, back, color, oldSchool }) {
     return (
-        <Container style={{ backgroundColor: `${back}` }} >
-            <Titulo style={{ color: `${color}` }}>{title}</Titulo>
-            <Grupo jsonUrl={jsonUrl} />
-        </Container>
+        <>
+            {oldSchool ? <div className='container'>
+                <table className='table-old'>
+                    <tr>
+                        <td>
+                            <h1 className='h1-old'>{title}</h1>
+                            <GrupoOld jsonUrl={jsonUrl} oldSchool={oldSchool} />
+                        </td>
+                    </tr>
+                </table>
+            </div>
+                :
+                <Container style={{ backgroundColor: `${back}` }} >
+                    <Titulo style={{ color: `${color}` }}>{title}</Titulo>
+                    <Grupo jsonUrl={jsonUrl} />
+                </Container>
+            }
+        </>
     )
 }
 export default Seccion;

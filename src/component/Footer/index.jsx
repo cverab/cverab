@@ -11,12 +11,25 @@ const StyledFooter = styled.div`
     padding: 1rem 0;
     font-size: 0.8rem;
     }
-  `;
-const Footer = ({ autor, back }) => {
+  `
+  ;
+const Footer = ({ autor, back, oldSchool }) => {
   const currentYear = new Date().getFullYear();
   return (
-    <StyledFooter style={{ backgroundColor: `${back}` }}>Desarrollado por: {autor} / &#xa9; {currentYear}
-    </StyledFooter >
+    <>
+      {oldSchool ? <div className='container'>
+        <table className='table-old'>
+          <tr>
+            <td>
+              <h3 className='h3-old'>Desarrollado por: {autor} &#xa9; {currentYear}</h3>
+            </td>
+          </tr>
+        </table>
+      </div>
+        :
+        <StyledFooter style={{ backgroundColor: `${back}` }}>Desarrollado por: {autor} &#xa9; {currentYear}</StyledFooter >
+      }
+    </>
   )
 };
 
