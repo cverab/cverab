@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/cverab/static/css/main.da033d74.css",
-    "main.js": "/cverab/static/js/main.c19d13a6.js",
+    "main.css": "/cverab/static/css/main.5d49ce47.css",
+    "main.js": "/cverab/static/js/main.5cdcb89c.js",
     "static/js/453.ada92503.chunk.js": "/cverab/static/js/453.ada92503.chunk.js",
     "static/media/desktop.jpg": "/cverab/static/media/desktop.319ef3cd621e9d52d867.jpg",
     "static/media/contacto.jpg": "/cverab/static/media/contacto.10c0d10e4584efbd82b9.jpg",
     "static/media/back.jpg": "/cverab/static/media/back.9d6425f8a339155f3d21.jpg",
     "static/media/mobile.jpg": "/cverab/static/media/mobile.826ed3a304f942fdf1ae.jpg",
     "index.html": "/cverab/index.html",
-    "main.da033d74.css.map": "/cverab/static/css/main.da033d74.css.map",
-    "main.c19d13a6.js.map": "/cverab/static/js/main.c19d13a6.js.map",
+    "main.5d49ce47.css.map": "/cverab/static/css/main.5d49ce47.css.map",
+    "main.5cdcb89c.js.map": "/cverab/static/js/main.5cdcb89c.js.map",
     "453.ada92503.chunk.js.map": "/cverab/static/js/453.ada92503.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.da033d74.css",
-    "static/js/main.c19d13a6.js"
+    "static/css/main.5d49ce47.css",
+    "static/js/main.5cdcb89c.js"
   ]
 }
