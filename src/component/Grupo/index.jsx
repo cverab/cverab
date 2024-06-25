@@ -30,8 +30,9 @@ const Grupo = ({ jsonUrl, oldSchool }) => {
       {oldSchool ?
         <ul className='ul-old'>
           {items.map((item, i) => (
-            <li className='li-old' key={i}>{item.titulo}: {(item.pageurl && item.demoUrl) ? <><a href={item.pageurl}>Repositorio</a> | <a href={item.demoUrl}>Demo</a></> : ''}{(item.institucion && item.url) ? <><a href={item.url}>{item.institucion}</a></> : ''}</li>))}
-        </ul> :
+            <li className='li-old' key={i}>{item.titulo}  {(item.pageurl && item.demoUrl) ? <><a href={item.pageurl}>Repositorio</a> | <a href={item.demoUrl}>Demo</a></> : ''}{(item.institucion && item.url) ? <><a href={item.url}>{item.institucion}</a></> : ''}</li>))}
+        </ul>
+        :
         <Container>
           {items.map((item, i) => (
             <Item key={i} fondo={item.fondo} titulo={item.titulo} descripcion={item.descripcion} pageUrl={item.pageurl} demoUrl={item.demoUrl} html={item.html} css={item.css} javascript={item.javascript} react={item.react} url={item.url} institucion={item.institucion} />

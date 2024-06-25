@@ -17,15 +17,18 @@ const Footer = ({ autor, back, oldSchool }) => {
   const currentYear = new Date().getFullYear();
   return (
     <>
-      {oldSchool ? <div className='container'>
-        <table className='table-old'>
-          <tr>
-            <td>
-              <h3 className='h3-old'>Desarrollado por: {autor} &#xa9; {currentYear}</h3>
-            </td>
-          </tr>
-        </table>
-      </div>
+      {oldSchool ?
+        <div className='container'>
+          <table className='table-old'>
+            <tfoot>
+              <tr>
+                <td>
+                  <h3 className='h3-old'>Desarrollado por: {autor} &#xa9; {currentYear}</h3>
+                </td>
+              </tr>
+            </tfoot>
+          </table>
+        </div>
         :
         <StyledFooter style={{ backgroundColor: `${back}` }}>Desarrollado por: {autor} &#xa9; {currentYear}</StyledFooter >
       }

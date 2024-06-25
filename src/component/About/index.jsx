@@ -16,15 +16,17 @@ const Titulo = styled.h2`
         font-size: 2rem;
     }
 `
-const Subtitulo = styled.h4`
+const Subtitulo = styled.h3`
     padding: 0 2rem;
     margin: 2rem 0;
 `
 const Parrafo = styled.p`
     margin: 1.5rem 0;
+    font-size: 1rem;
     @media (max-width: 640px) {
         padding: 0 1rem;
         margin: 1rem 0;
+        font-size: 0.875rem;
     }
 `
 const List = styled.ul`
@@ -35,6 +37,10 @@ const List = styled.ul`
 `
 const Item = styled.li`
     list-style: none;
+    font-size: 1rem;
+    @media (max-width: 640px) {
+        font-size: 0.875rem;
+        }
 `
     ;
 function About({ oldSchool }) {
@@ -46,6 +52,7 @@ function About({ oldSchool }) {
     const habilidades = [
         "HTML: Creo estructuras sólidas y semánticas para páginas web.",
         "CSS: Diseño estilos atractivos y responsivos para una experiencia visual agradable.",
+        // eslint-disable-next-line
         "JavaScript: Implemento interacciones dinámicas y funcionales en mis proyectos.",
         "React: Me encanta construir aplicaciones modernas utilizando esta biblioteca."
     ];
@@ -55,18 +62,21 @@ function About({ oldSchool }) {
             {oldSchool ?
                 <div className='container'>
                     <table className='table-old'>
-                        <tr>
-                            <td>
-                                <h1 className='h1-old'>Acerca de mi</h1>
-                                {contenido.map((parrafo, index) => <p className='p-old' key={index}>{parrafo}</p>)}
-                                <h3 className='h3-old'>
-                                    Mis habilidades clave:
-                                </h3>
-                                <ul className='ul-old'>
-                                    {habilidades.map((habilidad, index) => <li className='li-old' key={index}>{habilidad}</li>)}
-                                </ul>
-                            </td>
-                        </tr>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <h1 className='h1-old'>Acerca de mi</h1>
+                                    {contenido.map((parrafo, index) => <p className='p-old' key={index}>{parrafo}</p>)}
+                                    <h3 className='h3-old'>
+                                        Mis habilidades clave:
+                                    </h3>
+                                    <ul className='ul-old'>
+                                        {habilidades.map((habilidad, index) => <li className='li-old' key={index}>{habilidad}</li>)}
+                                    </ul>
+                                    <hr></hr>
+                                </td>
+                            </tr>
+                        </tbody>
                     </table>
                 </div>
                 :

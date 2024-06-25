@@ -51,9 +51,20 @@ const Subtitulo = styled.h3`
 const Header = ({ autor, oficio, oldSchool }) => {
   return (
     <>
-      {oldSchool ? <div className="container">
-        <table className="table-old"><tr><td><h1 className="h1-old">{autor} - {oficio}</h1></td></tr></table>
-      </div> :
+      {oldSchool ?
+        <div className="container">
+          <table className="table-old">
+            <thead>
+              <tr>
+                <td>
+                  <h1 className="h1-old">{autor} - {oficio}</h1>
+                  <hr></hr>
+                </td>
+              </tr>
+            </thead>
+          </table>
+        </div>
+        :
         <Container>
           <Fondo alt="Photo by Vlad Bagacian from Pexels: https://www.pexels.com/photo/black-laptop-on-brown-table-1028443/">
             <Textos>

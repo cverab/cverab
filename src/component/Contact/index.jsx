@@ -49,16 +49,18 @@ const Titulo = styled.h2`
 `
 const Parrafo = styled.p`
     margin: 2rem 0;
+    font-size: 1rem;
     @media (max-width: 640px) {
         padding: 0 1rem;
         margin: 1rem 0;
+        font-size: 0.875rem;
     }
 `
 const List = styled.ul`
     padding: 0 5rem;
     @media (max-width: 640px) {
         padding: 0 1rem;
-        }
+    }
 `
 const Item = styled.li`
     list-style: none;
@@ -91,17 +93,20 @@ function Contact({ oldSchool }) {
             {oldSchool ?
                 <div className="container">
                     <table className="table-old">
-                        <tr>
-                            <td>
-                                <h1 className="h1-old">Contacto</h1>
-                                <p className="p-old">{contenido}</p>
-                                <ul className="ul-old">
-                                    {enlaces.map((enlace, index) =>
-                                        <li className="li-old" key={index}><a href={enlace.href}>{enlace.texto}</a></li>
-                                    )}
-                                </ul>
-                            </td>
-                        </tr>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <h1 className="h1-old">Contacto</h1>
+                                    <p className="p-old">{contenido}</p>
+                                    <ul className="ul-old">
+                                        {enlaces.map((enlace, index) =>
+                                            <li className="li-old" key={index}><a href={enlace.href}>{enlace.texto}</a></li>
+                                        )}
+                                    </ul>
+                                    <hr></hr>
+                                </td>
+                            </tr>
+                        </tbody>
                     </table>
                 </div>
                 :
