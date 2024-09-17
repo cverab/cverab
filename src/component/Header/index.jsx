@@ -1,8 +1,8 @@
 import Desktop from "./desktop.jpg";
 import Mobile from "./mobile.jpg";
-import styled from 'styled-components';
+import styled from "styled-components";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLaptopCode } from '@fortawesome/free-solid-svg-icons'
+import { faLaptopCode } from "@fortawesome/free-solid-svg-icons"
 
 const Container = styled.div`
   display: flex;

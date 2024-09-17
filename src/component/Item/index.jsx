@@ -71,8 +71,8 @@ const Paragraph = styled.div`
             background-color: rgba(250, 250, 250, 0.8);
             font-size: 1.5rem;
             margin:0;
-        @media (max-width: 425px) {
-            font-size: 1.2rem;
+            @media (max-width: 425px) {
+                font-size: 1.2rem;
             }
         }
         p {
@@ -80,10 +80,10 @@ const Paragraph = styled.div`
             font-size: 1rem;
         }
         a {
-            color:black;
+            color: black;
             @keyframes destacarlink{
             from {
-                color:black;
+                color: black;
                 }
             to {
             color:#FFB923;
@@ -94,7 +94,7 @@ const Paragraph = styled.div`
                 color:#FFB923;
                 }
             to {
-                color:black;
+                color: black;
                 }
             }
         }
@@ -110,12 +110,12 @@ const Paragraph = styled.div`
             animation-duration: 0.5s;
             animation-name: destacarlink;
             color:#FFB923;
-            transform = {rotate: 42};
+            transform: {rotate: 42};
         }
         a:not(:hover) {
             animation-duration: 0.5s;
             animation-name: nodestacarlink;
-            color:black;
+            color: black;
         }
         a:active {
         }
@@ -136,6 +136,7 @@ export function Item({ fondo, titulo, pageUrl, demoUrl, javascript, html, css, r
                             <FontAwesomeIcon
                                 key={i}
                                 alt={tech.alt}
+                                title={tech.alt}
                                 icon={tech.icon}
                                 size="2x"
                                 style={{ marginLeft: '10px' }}
@@ -148,9 +149,9 @@ export function Item({ fondo, titulo, pageUrl, demoUrl, javascript, html, css, r
             <Paragraph>
                 <h3>{titulo}</h3>
                 <Icons>
-                    {pageUrl ? <a href={pageUrl} target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub} alt="Página de proyecto" size="2x" style={{ marginLeft: '10px' }} /></a> : null}
-                    {pageUrl ? <a href={demoUrl} target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faDesktop} alt="Página de proyecto" size="2x" style={{ marginLeft: '10px' }} /></a> : null}
-                    {url && institucion ? <a href={url} target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faDesktop} alt={institucion} size="2x" style={{ marginLeft: '10px' }} /></a> : null}
+                    {pageUrl ? <a href={pageUrl} target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub} alt="Código del proyecto" title="Código del proyecto" size="2x" style={{ marginLeft: '10px' }} /></a> : null}
+                    {pageUrl ? <a href={demoUrl} target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faDesktop} alt="Demo del proyecto" title="Demo del proyecto" size="2x" style={{ marginLeft: '10px' }} /></a> : null}
+                    {url && institucion ? <a href={url} target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faDesktop} alt={institucion} title={institucion} size="2x" style={{ marginLeft: '10px' }} /></a> : null}
                 </Icons>
             </Paragraph>
         </ItemContainer>

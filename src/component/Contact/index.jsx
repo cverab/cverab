@@ -100,7 +100,7 @@ function Contact({ oldSchool }) {
                                     <p className="p-old">{contenido}</p>
                                     <ul className="ul-old">
                                         {enlaces.map((enlace, index) =>
-                                            <li className="li-old" key={index}><a href={enlace.href}>{enlace.texto}</a></li>
+                                            <li className="li-old" key={index}><a href={enlace.href} target="_blank" rel="noopener noreferrer">{enlace.texto}</a></li>
                                         )}
                                     </ul>
                                     <hr></hr>
@@ -118,7 +118,7 @@ function Contact({ oldSchool }) {
                         <Parrafo>{contenido}</Parrafo>
                         <List>
                             {enlaces.map((enlace, index) =>
-                                <Item key={index}><FontAwesomeIcon icon={enlace.icono} style={{ color: 'black', paddingRight: '10px' }} /><a href={enlace.href}>{enlace.texto}</a></Item>
+                                <Item key={index}><FontAwesomeIcon icon={enlace.icono} style={{ color: 'black', paddingRight: '10px' }} /><a href={enlace.href} target="_blank" rel="noopener noreferrer">{enlace.texto}</a></Item>
                             )}
                         </List>
                     </Contenido><Fondo alt='Photo by Ann poan from Pexels: https://www.pexels.com/photo/workplace-with-laptop-and-opened-diary-5797903/'></Fondo>

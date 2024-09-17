@@ -1,6 +1,6 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFloppyDisk } from '@fortawesome/free-solid-svg-icons'
+import { faFloppyDisk } from "@fortawesome/free-solid-svg-icons";
 
 const SobreMi = styled.div`
     display: flex;
